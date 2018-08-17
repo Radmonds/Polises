@@ -1,0 +1,36 @@
+a.sidebar-item__link[aria-label="the-trade-zone"] .avatar-image {
+    content: url(https://polises.com/uploads/ttz.jpg)!important;
+}
+a.sidebar-item__link[aria-label="oilcan"] .avatar-image {
+    content: url(https://c.polises.com/avatar/oil)!important;
+}
+a.sidebar-item__link[aria-label="training-grounds"] .avatar-image {
+    content: url(https://polises.com/uploads/training-grounds.png)!important;
+}
+a.sidebar-item__link[aria-label="fundamental-analysis"] .avatar-image {
+    content: url(https://polises.com/uploads/fundamental-analysis.png)!important;
+}
+a.sidebar-item__link[aria-label="trading-floor"] .avatar-image {
+    content: url(https://polises.com/uploads/technical-analysis.png)!important;
+}
+a.sidebar-item__link[aria-label="lounge"] .avatar-image {
+    content: url(https://c.polises.com/file-upload/4p6XKeyb6X6DmnF25/lounge.png)!important;
+}
+a.sidebar-item__link[aria-label="blockchain-news"] .avatar-image {
+    content: url(https://polises.com/uploads/news.png)!important;
+}
+a.sidebar-item__link[aria-label="feed"] .avatar-image {
+    content: url(https://polises.com/uploads/feed.png)!important;
+}
+a.sidebar-item__link[aria-label="general"] .avatar-image {
+    content: url(https://polises.com/uploads/general.png)!important;
+}
+a.sidebar-item__link[aria-label="polises"] .avatar-image {
+    content: url(https://polises.com/uploads/polises-updates-avatar.png)!important;
+}
+a.sidebar-item__link[aria-label="music"] .avatar-image {
+    content: url(https://polises.com/uploads/music.png)!important;
+}
+a.sidebar-item__link[aria-label="bitmex-liquidation-feed"] .avatar-image {
+    content: url(https://pbs.twimg.com/profile_images/994215403072077825/i40WA6_g_400x400.jpg)!important;
+}
