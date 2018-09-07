@@ -1,3 +1,4 @@
+var ttz = true;
 (function() {
    
             users = {
