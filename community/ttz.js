@@ -27,4 +27,11 @@
             $(document).ready().each(channel, function(key, value) {
                 $('section#chat-window-' + key).addClass(value);
             });
+            
+            if (path == ',channel' || ',group') {
+                $('.tab-button-icon--team').parents('div.js-action').click();
+            }
+            if (path == ',direct') {
+                $('.tab-button-icon--user').parents('div.js-action').click();
+            }
 });
