@@ -1,0 +1,25 @@
+$('head').append('<link rel="stylesheet" type="text/css" href="https://polises.com/uploads/assets/theme.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://polises.com/uploads/assets/typography.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://polises.com/uploads/assets/channels.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://polises.com/uploads/assets/users.css">');
+
+   
+	time = 1;
+    interval = setInterval(function() {
+        time--;
+        
+        if (time == 0) {
+
+            
+            if (typeof jQuery != 'undefined') $.getScript( "https://polises.com/uploads/assets/ttz.js", function( textStatus, jqhxr ) {
+				console.log( textStatus ); // Success
+				console.log( jqxhr.status ); // 200
+				alert( "Load was performed." );
+				clearInterval();
+				});
+			};
+
+            return;
+        
+    }, 100);
+alert("js Loaded");
