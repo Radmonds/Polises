@@ -14,7 +14,7 @@ $('head').append('<link rel="stylesheet" type="text/css" href="https://polises.c
             if (typeof jQuery != 'undefined') $.getScript( "https://polises.com/uploads/assets/ttz.js", function( textStatus, jqhxr ) {
 				console.log( textStatus ); // Success
 				console.log( jqxhr.status ); // 200
-				alert( "Load was performed." );
+				
 				clearInterval();
 				});
 			};
