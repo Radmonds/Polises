@@ -22,4 +22,4 @@ $('head').append('<link rel="stylesheet" type="text/css" href="https://polises.c
             return;
         
     }, 100);
-alert("js Loaded");
+
