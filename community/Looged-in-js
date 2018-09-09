@@ -11,7 +11,7 @@ $('head').append('<link rel="stylesheet" type="text/css" href="https://polises.c
         if (time == 0) {
 
             
-            if (typeof jQuery != 'undefined') $.getScript( "https://polises.com/uploads/assets/ttz.js", function( textStatus, jqhxr ) {
+            if (typeof jQuery != 'undefined') $.getScript( "https://polises.com/uploads/assets/ttz.js", function( textStatus, jqxhr ) {
 				console.log( textStatus ); // Success
 				console.log( jqxhr.status ); // 200
 				
