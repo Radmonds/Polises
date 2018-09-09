@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://polises.com/uploads/assets/fonts/Graphik-Semibold.woff2') format('woff2'),
+        url('https://polises.com/uploads/assets/fonts/Graphik-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url('https://polises.com/uploads/assets/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('https://polises.com/uploads/assets/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.message .is-bot, .message .role-tag {
+    color: #fff!important;
+    font-family: 'Graphik', Arial!important;
+    font-weight: 600!important;
+    text-transform: uppercase!important;
+    letter-spacing: 1px!important;
+    font-size: 9px!important;
+}
+.sidebar-item__ellipsis {
+    text-transform: capitalize!important;
+    font-family: 'Graphik', Arial!important;
+    font-weight: 600!important;
+    font-size: 12px!important;
+  	margin-left: 0.5rem!important;
+}
+h3.rooms-list__type {
+    font-family: 'Graphik', Arial!important;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    font-size: 10px;
+}
+.sidebar-item__last-message {
+    font-family: 'Graphik', arial!important;
+    font-size: 11px!important;
+}
+blockquote.background-transparent-darker-before {
+    font-family: 'Graphik', Arial!important;
+}
+ul.people span {
+    font-family: Graphik, Tahoma, Sans-serif!important;
+}
+.sidebar-item__icon, .sidebar-item__link {
+    font-size: 0.7rem!important;
+}
+a.mention-link {
+    font-weight: bold!important;
+}
+span.badge.badge--unread {
+    font-family: 'Graphik', Arial!important;
+}
+.body strong {
+    color: #d2d2d2!important;
+}
+blockquote {
+    line-height: 1.7!important;
+}
+.rc-header__name {
+    font-family: Graphik!important;
+    font-size: 1.1rem!important;
+    line-height: 1.2!important;
+}
+span.rc-header__topic {
+    font-family: Graphik!important;
+    font-size: 0.9rem;
+    letter-spacing: -0.2px;
+}
+span.rooms-list__type-text {
+    font-family: Graphik!important;
+    font-size: 0.55rem;
+    letter-spacing: 0.1rem!important;
+}
